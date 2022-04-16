@@ -1,0 +1,21 @@
+{
+  "name": "miniprogram-pd01",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mediapipe/pose": "^0.4.1633558788",
+    "@tensorflow-models/pose-detection": "^2.0.0",
+    "@tensorflow/tfjs-backend-cpu": "^3.15.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.15.0",
+    "@tensorflow/tfjs-converter": "^3.15.0",
+    "@tensorflow/tfjs-core": "^3.15.0",
+    "fetch-wechat": "^0.0.3"
+  }
+}
