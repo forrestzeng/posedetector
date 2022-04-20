@@ -5,6 +5,10 @@ var webgl = require('@tensorflow/tfjs-backend-webgl');
 var plugin = requirePlugin('tfjsPlugin');
 // app.js
 App({
+  globalData: {
+    localStorageIO: plugin.localStorageIO,
+    fileStorageIO: plugin.fileStorageIO,
+  },
   onLaunch() {
     plugin.configPlugin({
         // polyfill fetch function
